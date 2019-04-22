@@ -1,0 +1,9 @@
+FROM node:8-alpine
+
+RUN apk add --no-cache \
+  curl \
+  openssl \
+  docker \
+  git
+
+CMD ["sh"]
