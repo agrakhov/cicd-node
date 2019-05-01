@@ -1,3 +1,8 @@
 # cicd-node
 
-NodeJS with docker, git, yarn installed for CI/CD
+Docker image for CICD pipelines with following tools installed:
+* node.js
+* yarn
+* docker
+* git
+* jq
