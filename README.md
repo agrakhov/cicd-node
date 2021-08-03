@@ -8,3 +8,13 @@ Docker image for CICD pipelines with following tools installed:
 - git
 - jq
 - yq
+
+# Publishing to dockerhub
+
+Automated builds removed so need to push it manually:
+
+```bash
+docker build --tag agrakhov/cicd-node:12 . --no-cache
+docker login -u USERNAME
+docker push agrakhov/cicd-node:12
+```
