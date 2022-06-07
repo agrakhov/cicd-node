@@ -11,7 +11,7 @@ Docker image for CICD pipelines with following tools installed:
 
 # Publishing to dockerhub
 
-Automated builds removed so need to push it manually:
+Automated builds removed, to push manually:
 
 ```bash
 docker build --tag agrakhov/cicd-node:12 . --no-cache
