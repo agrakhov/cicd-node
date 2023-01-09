@@ -15,6 +15,6 @@ Automated builds removed, to push manually:
 
 ```bash
 docker build --tag agrakhov/cicd-node:12 . --no-cache
-docker login -u USERNAME
+docker login -u <USERNAME>
 docker push agrakhov/cicd-node:12
 ```
